@@ -139,6 +139,10 @@ main > img {
     width: 100%;
 }
 
+img {
+    width: 100%;
+}
+
 div.video {
     background-color: var(--cor5);
     margin: 0px -20px 30px -20px;
