@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+            
+            /* shorthand-background
+            color > image > position > repeat > (size) > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
         main {
             border: 2px solid black;
             border-radius: 10px;
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
         }
@@ -27,6 +35,9 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum suscipit dolore ad ipsum in distinctio, nobis deserunt accusamus accusantium vel. Deleniti ratione asperiores nihil nemo ut eligendi eum. Labore, distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nesciunt consequatur veniam voluptatibus nihil, inventore voluptas molestias aut rerum consectetur ab quasi, culpa cumque ratione deleniti minus illum praesentium maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ut tempore harum tempora ad non nihil at earum dignissimos cumque eveniet, cum enim reiciendis eaque veritatis consequatur magnam quidem ipsam!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum suscipit dolore ad ipsum in distinctio, nobis deserunt accusamus accusantium vel. Deleniti ratione asperiores nihil nemo ut eligendi eum. Labore, distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nesciunt consequatur veniam voluptatibus nihil, inventore voluptas molestias aut rerum consectetur ab quasi, culpa cumque ratione deleniti minus illum praesentium maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ut tempore harum tempora ad non nihil at earum dignissimos cumque eveniet, cum enim reiciendis eaque veritatis consequatur magnam quidem ipsam!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum suscipit dolore ad ipsum in distinctio, nobis deserunt accusamus accusantium vel. Deleniti ratione asperiores nihil nemo ut eligendi eum. Labore, distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nesciunt consequatur veniam voluptatibus nihil, inventore voluptas molestias aut rerum consectetur ab quasi, culpa cumque ratione deleniti minus illum praesentium maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ut tempore harum tempora ad non nihil at earum dignissimos cumque eveniet, cum enim reiciendis eaque veritatis consequatur magnam quidem ipsam!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum suscipit dolore ad ipsum in distinctio, nobis deserunt accusamus accusantium vel. Deleniti ratione asperiores nihil nemo ut eligendi eum. Labore, distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nesciunt consequatur veniam voluptatibus nihil, inventore voluptas molestias aut rerum consectetur ab quasi, culpa cumque ratione deleniti minus illum praesentium maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ut tempore harum tempora ad non nihil at earum dignissimos cumque eveniet, cum enim reiciendis eaque veritatis consequatur magnam quidem ipsam!</p>
     </main>
     
