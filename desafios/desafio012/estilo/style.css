@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
+    --fonte-padrao: Verdana, Helvetica, Sans-serif;
     --fonte-titulo: 'passion one';
     --fonte-texto: 'sriracha';
 }
@@ -14,7 +14,8 @@
 }
 header {
     background-color: black;
-    height: 245px;
+    height: 208px;
+    padding-top: 45px;
     margin: 0px;
     color: white;
     text-align: center;
@@ -23,8 +24,11 @@ header {
 header > h1 {
     margin: 0px;
     font-family: var(--fonte-titulo);
-    font-weight: normal;
-    font-size: 8em;
+    font-size: 7.2em;
+}
+
+header > p {
+    font-family: var(--fonte-padrao);
 }
 
 section > p {
@@ -33,8 +37,9 @@ section > p {
     font-family: var(--fonte-texto);
     text-align: left center;
     font-size: 2.8em;
-    padding-left: 20px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.527);
+    padding-top: 60px;
+    padding-left: 25px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.527);   
 }
 
 .joaninha {
@@ -50,9 +55,21 @@ section > p {
     background: black url(../imagens/background002.jpg) center center no-repeat fixed;
 }
 
+.estrofe {
+    height: 1200px;
+}
+
 img {
     height: 300px;
     width: 300px;
+}
+
+footer {
+    font-family: var(--fonte-padrao);
+    color: white;
+    text-align: center;
+    padding: 4px;
+    background-color: black;
 }
 
 
