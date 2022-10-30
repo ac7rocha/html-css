@@ -60,6 +60,7 @@ section {
 
 section > p {
     padding-left: 30px;
+    padding-bottom: 2em;
 }
 
 section.normal {
@@ -70,18 +71,39 @@ section.normal {
 section.imagem {
     background-color: rgb(51, 50, 50);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.377);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.253);
+    text-shadow: 1px 1px 0px black;
     display: inline-block;
     margin-left: 30px;
     padding: 5px;
 }
 
+#joaninha {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+
+#carta {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+}
+
+
+
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 2px;
+    font-family: var(--fonte-padrao);
+}
+
+footer > p {
+    margin: 0px;
 }
